@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Great+Vibes&display=swap');
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #d8d4d4;
+}
+.main {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;   
+    background-color: #000000;
+}
+.nav1 {
+    list-style-type: none;
+
+    padding: 5px 20px;
+    margin-top: 0;
+    flex: 1;
+}
+.title {
+    flex: 1;
+    font-size: 25px;
+    padding: 0;
+    font-family:'Comfortaa';
+    font-style: italic;
+    color:honeydew;
+
+}
+.li1 {
+    display: inline-block;
+    padding-right: 20px;
+    font-family: 'poppins';
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+.a-nav{
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+
+}
+.a-nav:hover {
+    color: blueviolet;
+    background-color:#dbdbdb;
+    border-radius:10px 20px;
+    
+}
+.tutorials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(160, 201, 243);
+}
+.product {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: 60px;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .product button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  button a {
+    
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    text-decoration: none;
+
+  }
+  
+  .product button:hover {
+    opacity: 0.7;
+  }
+
+  img {
+      width: 300px;
+      height: 300px;
+  }
+  hr {
+      margin: 0;
+  }
+
+  h2{
+      margin-left: auto;
+      margin-right: auto;
+      width: 500px;
+      border: 3px solid rgb(187, 130, 46);
+      border-radius: 3px 10px;
+  }
+
+  th,td {
+
+    border-collapse: collapse;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+
+        
+tr:hover {
+    background-color:chartreuse;
+}
+
+
+th {
+    background-color: aqua;
+    font-size:30px
+}
+
+.mywork {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#csstable {
+    text-align: center;
+    font-size: 25px;
+    width: 300px;
+    margin: 20px;
+    flex: 1;
+}
+
+.htmlLists {
+    flex: 1;
+    width: 250px;
+    font-size: 30px;
+
+}
+
+.iframes1 {
+    flex: 1;
+    margin-left: 150px;
+}
+
+
+
